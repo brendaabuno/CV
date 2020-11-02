@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    background-image: url(hei.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    height: 50px;
+    background-color: #ffc7c7;
+}
+header ul{
+    text-align: center;
+}
+header li{
+    padding: 15px;
+    display: inline-block;
+}
+header ul li a{
+    transition: .3s;
+}
+header ul li a:hover{
+    padding: 15px;
+    color: #ffc7c7;
+    background-color: black;
+}
+.head{
+    margin: 0 auto;
+}
+.head::after{
+    content: '';
+    display: none;
+    padding: 15px;
+    color: black;
+
+}
+.bar-menu{
+    display: none;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+.bar-menu:hover{
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.sidemenu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    width: 300px;
+    background-color: rgba(135, 133, 162, .6);
+}
+.sidemenu ul p a{
+    color:white;
+}
+.sidemenu ul p{
+    padding: 24px;
+}
+.sidemenu ul p:hover{
+    background-color: #ffc7c7;
+}
+#check:checked ~ .sidemenu{
+    right: 0;
+}
+footer{
+    background-color: #ffc7c7;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#hobby{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#educations{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#publication{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#skills{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+#contact-me{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#contact-me label{
+    font-family: 'Dosis', sans-serif;
+}
+@media(max-width:900px){
+    .bar-menu{
+        display: block;
+    }
+    header ul{
+        display: none;
+    }
+}
