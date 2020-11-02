@@ -120,6 +120,9 @@ footer{
 #contact-me label{
     font-family: 'Dosis', sans-serif;
 }
+.top{
+    text-align: center;
+}
 @media(max-width:900px){
     .bar-menu{
         display: block;
