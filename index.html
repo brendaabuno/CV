@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -22,10 +23,14 @@
             <p><a href="#educations"><i class="fas fa-graduation-cap"></i> Education</a></p>
             <p><a href="#publication"><i class="fas fa-quote-left"></i> Publication</a></p>
             <p><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></p>
+            <p><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></p>
             <p><a href="#contact-me"><i class="fas fa-phone-alt"></i> Contact Me</a></p>
             <p><a href=""><i class="fas fa-backward"></i> Back to top</a></p>
         </ul>
+
+
     </div>
+
     <header>
         <div class="head">
             <ul>
@@ -33,51 +38,68 @@
                 <li><a href="#educations"><i class="fas fa-graduation-cap"></i> Education</a></li>
                 <li><a href="#publication"><i class="fas fa-quote-left"></i> Publication</a></li>
                 <li><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
                 <li><a href="#contact-me"><i class="fas fa-phone-alt"></i> Contact Me</a></li>
             </ul>
             <label for="check" class="bar-menu"><i class="fas fa-bars"></i></label>
         </div>
     </header>
-    <tbody>
-        <tr>
-            <div class="top">
-                <td>
-                    <br>
-                    <img src="mypictt.png" alt="profile-picture" width="200">
-                </td>
-                <td>
-                    <h1>Brenda Yeyen Abuno</h1>
-                    <h1>Part of Computer Science, Klabat University</h1>
-                    <i class="fas fa-home">Desa Lobu, Kecamatan Touluaan, Kabupaten Minahasa Tenggara</i>
-                    <br>
-                    <i class="far fa-envelope"><strong> brendaabuno025@gmail.com</strong></i>
-                    <br>
-                    <i class="fab fa-whatsapp"><strong> 0821-8736-2505</strong></i>
-                </td>
-            </div>
-        </tr>
-    </tbody>
+
+    <div align="center">
+        <br>
+        <p>TRY THIS ONE!</p>
+        <br>
+        <button class="button" onclick="toggleDarkMode()">Change To Dark Backround</button>
+        <button class="button" onclick="togglePinkMode()">Change To Pink Backround</button>
+        <button class="button" onclick="toggleBlueMode()">Change To Blue Backround</button>
+        <button class="button" onclick="togglePurpleMode()">Change To Purple Backround</button>
+        <button class="button" onclick="toggleWhiteMode()">Back To White Backround</button>
+        <br><br>
+    </div>
+
+    <div class="latar parallax" style="background-image: url(moon.jpg);">
+
+        <tbody>
+            <tr>
+                <div class="top">
+                    <td>
+                        <br>
+                        <img src="mypictt.png" alt="profile-picture" width="200">
+                    </td>
+                    <td>
+                        <h1>Halo!</h1>
+                        <h2>Saya Brenda Abuno</h2>
+                        <h2>Admin dari website ini</h2>
+                        <i class="fas fa-home">Desa Lobu, Kecamatan Touluaan, Kabupaten Minahasa Tenggara</i>
+                        <br>
+                        <i class="far fa-envelope"><strong> brendaabuno025@gmail.com</strong></i>
+                        <br>
+                        <i class="fab fa-whatsapp"><strong> 0821-8736-2505</strong></i>
+                    </td>
+                </div>
+            </tr>
+        </tbody>
+    </div>
 
     <section id="hobby">
         <div class="container">
-            <br>
-            <hr>
+            <br><br>
             <h2>HOBBY</h2>
             <p>WATCHING AND WRITING</p>
+            <br><br><br>
         </div>
     </section>
 
     <section id="educations">
         <div class="container">
             <hr>
+            <br><br>
             <h2>EDUCATIONS</h2>
             <p>
-                <a href="http://fik.unklab.ac.id/web/"><strong>FAKULTAS ILMU KOMPUTER - SISTEM INFORMASI</strong></a>
-                (2019-Sekarang)
+                FAKULTAS ILMU KOMPUTER - SISTEM INFORMASI (2019-Sekarang)
             </p>
             <p>
-                <a href="http://www.prisma.sch.id/"><strong>SMA PRISMA PIONEER MANADO</strong></a>
-                (2016-2019)
+                SMA PRISMA PIONEER MANADO (2016-2019)
             </p>
             <p>
                 SMPN 1 TOULUAAN (2013-2016)
@@ -88,6 +110,7 @@
             <p>
                 TK INPRES LOBU (2006-2007)
             </p>
+            <br><br><br>
         </div>
     </section>
 
@@ -95,6 +118,7 @@
     <section id="publication">
         <div class="container">
             <hr>
+            <br><br>
             <h2>PUBLICATION</h2>
             <tbody>
                 <td>
@@ -109,12 +133,14 @@
                 </td>
                 </tr>
             </tbody>
+            <br><br><br>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="latar2 parallax" style="background-image: url(moon.jpg);">
         <div class="container">
             <hr>
+            <br><br>
             <h2>SKILLS</h2>
             <p><strong>HTML</strong></p>
             <div class="bar">
@@ -133,11 +159,28 @@
                 <span class="value c++"><i class="fas fa-battery-half fa-3x"></i></span>
             </div>
         </div>
+        <br><br><br>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <hr>
+            <br><br>
+            <h2>GALLERY</h2>
+            <br>
+            <section>
+                <img src="moon1.gif" alt="gallery" class="container">
+                <img src="moon1.gif" alt="gallery" class="container">
+                <img src="moon1.gif" alt="gallery" class="container">
+            </section>
+            <br><br><br>
+        </div>
     </section>
 
     <section id="contact-me">
         <div class="container">
             <hr>
+            <br><br>
             <h2>CONTACT ME</h2>
             <br>
             <form>
@@ -155,9 +198,11 @@
                 <br><br>
                 <input type="submit" name="submit">
             </form>
+            <br><br><br>
         </div>
     </section>
 </body>
+
 <footer>
     <div class="bot">
         <p>
@@ -167,6 +212,7 @@
             <a href="https://web.facebook.com/brenda.abuno/"><i class="fab fa-facebook-square fa-5x"></i></a>
             </strong>
         </p>
+        <script src="index.js"></script>
     </div>
 </footer>
 

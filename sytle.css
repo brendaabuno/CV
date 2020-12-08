@@ -2,11 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+.button {
+   background-color: #4a8677;  /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.latar{
+    color: white;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latar2{
+    color: white;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
-    background-image: url(hei.jpg);
     background-size: cover;
+    background-color: white;
 }
 h1{
     font-size: 3rem;
@@ -21,12 +54,12 @@ p{
     font-family: 'Dosis', sans-serif;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 header{
     height: 50px;
-    background-color: #ffc7c7;
+    background-color: rgba(15, 13, 13, 0.952);
 }
 header ul{
     text-align: center;
@@ -40,8 +73,8 @@ header ul li a{
 }
 header ul li a:hover{
     padding: 15px;
-    color: #ffc7c7;
-    background-color: black;
+    color: #e59999;
+    background-color: white;
 }
 .head{
     margin: 0 auto;
@@ -51,7 +84,6 @@ header ul li a:hover{
     display: none;
     padding: 15px;
     color: black;
-
 }
 .bar-menu{
     display: none;
@@ -80,13 +112,13 @@ header ul li a:hover{
     padding: 24px;
 }
 .sidemenu ul p:hover{
-    background-color: #ffc7c7;
+    background-color: black;
 }
 #check:checked ~ .sidemenu{
     right: 0;
 }
 footer{
-    background-color: #ffc7c7;
+    background-color: rgba(15, 13, 13, 0.952);;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -106,9 +138,13 @@ footer{
 #skills{
     padding-bottom: 10px;
     text-align: center;
+    background-size: cover;
+    color: white;
+}
+#gallery{
+    text-align: center;
 }
 #contact-me{
-
     padding-bottom: 10px;
     text-align: center;
 }
@@ -117,7 +153,8 @@ footer{
 }
 .top{
     text-align: center;
-    
+    background-size: cover;
+    color: white;
 }
 @media(max-width:900px){
     .bar-menu{
